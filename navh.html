@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100%;
+            width:100%;
+        }
+        #outer_nav_div{
+        height:70px;
+            background-color: pink;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 2.6rem;
+
+
+        }
+        #inner_section_div ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:60px;
+          
+            
+        }
+        a{
+            text-decoration: none;
+            color:white;
+            font-family:sans-serif;
+            font-size:2rem;
+        }
+        #inner_section_div ul li{
+            list-style: none;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="outer_nav_div">
+                <div id="inner_name_div">Adarsh singh</div>
+                <div id="inner_section_div">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Login</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
